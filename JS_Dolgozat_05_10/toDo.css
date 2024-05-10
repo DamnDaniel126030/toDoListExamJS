@@ -1,0 +1,22 @@
+body {
+    background-image: url("notebook.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+tr{
+    text-align: center;
+}
+
+.custom-table{
+    background-color: transparent;
+}
+
+.table{
+    --bs-table-bg: transparent;
+    --bs-table-border-color: transparent;
+}
