@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         toDoList.completeTask(index);
         taskOutput.innerHTML = "";
         outArray[index] = 
-        out = `
+        `
                 <tr>
                     <td style="text-decoration: line-through;">${taskNames[index]}</td>
                     <td>Completed</td>
@@ -58,5 +58,5 @@ document.addEventListener("DOMContentLoaded", () => {
     };
     
     window.completeTask = completeTask;
-    window.removeTask = removeTask;;
+    window.removeTask = removeTask;
 });
